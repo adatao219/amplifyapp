@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "latest": "^0.2.0",
+    "node": "^19.4.0",
+    "puppeteer": "^18.2.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
