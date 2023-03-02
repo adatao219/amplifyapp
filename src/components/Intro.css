@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+  scroll-behavior: smooth;
+}
+.middleText{
+    width: 100%;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    /* font-weight: 100; */
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 25px;
+    border: rgb(145, 215, 145) 3px;
+    border-style: groove;
+    box-shadow: 20px 30px 20px 1px lightgrey;
+    color:#4CAF50;
+    padding:10px;
+    /* font-family: 'Nanum Myeongjo', serif; */
+}
+#start{
+    width:80%;
+    margin: auto;
+}
+#problem{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 5%; */
+    margin-top: 4%;
+}
+#highlight{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: green;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+#down{
+    filter: invert(60%) sepia(9%) saturate(1974%) hue-rotate(89deg) brightness(96%) contrast(89%);
+}
+#first-dec{
+    flex: 1;
+    filter: brightness(1.6) hue-rotate(-20deg);
+    /* filter: grayscale(50%); */
+    width:60%;
+}
+#problem-text{
+    width: 120%;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#problem-text h4{
+    margin-top: 5%;
+    font-weight:normal;
+}
+#problem-text h1{
+    margin-top: 5%;
+    font-weight:bolder;
+}
+
+#benefit{
+    display: flex;
+    flex-direction: row;
+}
+#benefit h3{
+    margin-left: 25%;
+    margin-right: 25%;
+    /* text-align:justify; */
+    text-transform: capitalize;
+}
+#benefit > div:nth-child(1) > h3{
+    margin-top:7%;
+}
+#benefit > div:nth-child(2) > h3{
+    margin-top:6%;
+}
+#benefit img{
+    width:50%;
+    clip-path: circle(100px at center);
+}
+#benefit > div:nth-child(3) > img{
+    width:60%;
+}
+
+#opinion{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: green;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 5%;
+}
